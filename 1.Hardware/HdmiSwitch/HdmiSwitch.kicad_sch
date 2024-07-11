@@ -1,0 +1,227 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cc9a4224-c7c2-467e-a783-ff04a95e26f5")
+	(paper "A5")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 68.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b4e804f-56d0-4bdd-ad22-2be19c03bef8")
+	)
+	(wire
+		(pts
+			(xy 73.66 41.91) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0e4abf-0a2c-4206-adcd-0735a9f64da8")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 73.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a197dbf-8459-45ae-8de0-cfea49c825a6")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 72.39 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29ba81c-b025-4bcc-b01c-c0111d740536")
+	)
+	(wire
+		(pts
+			(xy 68.58 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5a0d35-5cab-430c-8caa-b8feee3e48c8")
+	)
+	(wire
+		(pts
+			(xy 68.58 113.03) (xy 73.66 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2fe571-0742-4a12-bbb4-dfaee35e4514")
+	)
+	(sheet
+		(at 17.145 55.88)
+		(size 51.435 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34e4bf41-1960-4816-a53d-2b8e02492251")
+		(property "Sheetname" "hdmi_Port1"
+			(at 17.145 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi_Port1.kicad_sch"
+			(at 17.145 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI_SW1" passive
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "04e9259f-2e8a-4176-99d2-7f3c03abd3d3")
+		)
+		(instances
+			(project "HdmiSwitch"
+				(path "/cc9a4224-c7c2-467e-a783-ff04a95e26f5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.145 95.25)
+		(size 51.435 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77dacca2-6c5a-4fba-b882-908401399561")
+		(property "Sheetname" "hdmi_port2"
+			(at 17.145 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi_port2.kicad_sch"
+			(at 17.145 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI_SW2" passive
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7aba7148-f5f3-42e5-84df-32c64d734420")
+		)
+		(instances
+			(project "HdmiSwitch"
+				(path "/cc9a4224-c7c2-467e-a783-ff04a95e26f5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 15.24)
+		(size 50.8 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9e7b6e82-01f6-40cd-9fb1-af97d2eff3e7")
+		(property "Sheetname" "power"
+			(at 17.78 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 17.78 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI_SW1" passive
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e19de8d-5c74-4cb2-aa91-f150845fde6c")
+		)
+		(pin "HDMI_SW2" passive
+			(at 68.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "31f68652-0c8e-4d3e-b037-342dfb7ea6df")
+		)
+		(instances
+			(project "HdmiSwitch"
+				(path "/cc9a4224-c7c2-467e-a783-ff04a95e26f5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
