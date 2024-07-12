@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8ad50108-47e9-4ae9-a206-95b7e5c95028")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 171.45 24.765)
+		(size 37.465 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4dfe2dc4-8254-47dd-b150-3ac61afb251a")
+		(property "Sheetname" "TF_Card"
+			(at 171.45 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TF_Card.kicad_sch"
+			(at 171.45 53.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UsbHub"
+				(path "/8ad50108-47e9-4ae9-a206-95b7e5c95028"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.765 25.4)
+		(size 45.72 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6b282503-d2f0-4390-acc3-b7b28b00abf5")
+		(property "Sheetname" "power"
+			(at 24.765 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 24.765 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UsbHub"
+				(path "/8ad50108-47e9-4ae9-a206-95b7e5c95028"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 24.765)
+		(size 45.085 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a8dbe73-ad1d-4b93-8826-69b2c97593d0")
+		(property "Sheetname" "USB2.0_Hub"
+			(at 124.46 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB2.0_Hub.kicad_sch"
+			(at 124.46 53.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UsbHub"
+				(path "/8ad50108-47e9-4ae9-a206-95b7e5c95028"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 24.765)
+		(size 44.45 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8ee8af1-a10b-4609-9a00-479227e6dfd8")
+		(property "Sheetname" "USB3.0_Hub"
+			(at 76.2 24.0534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3.0_Hub.kicad_sch"
+			(at 76.2 53.2896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "UsbHub"
+				(path "/8ad50108-47e9-4ae9-a206-95b7e5c95028"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
