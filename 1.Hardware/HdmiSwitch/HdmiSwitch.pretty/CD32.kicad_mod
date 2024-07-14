@@ -1,0 +1,202 @@
+(footprint "CD32"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cb2601a7-f074-4fa7-9b74-385e97f8781c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CD32"
+		(at 0 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "35f746b9-5b58-41e6-9e80-5355bee5d656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0862a8e-69f9-412c-acb1-63da79d0e343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e66dfc09-aec6-43fc-acd2-b853275223d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b44b49d-3401-4fb5-8e7e-3aa00eaf33dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 -1.8)
+		(end 1.7 -1.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2379665a-f980-4143-a523-4817bfed8173")
+	)
+	(fp_line
+		(start 1.7 1.8)
+		(end -1.8 1.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f851570f-d93a-464d-9a8e-3b99a4946477")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 -1.5) (xy -0.6 -1.5) (xy -0.6 1.5) (xy -1.8 1.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "5bdb9e3e-0590-4adf-9ed3-1a9f3a8132fe")
+	)
+	(fp_poly
+		(pts
+			(xy 1.7 1.5) (xy 0.5 1.5) (xy 0.5 -1.5) (xy 1.7 -1.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "aa7f303f-c5d2-4b0f-bd12-342bf241ee85")
+	)
+	(fp_line
+		(start -1.8 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "8d5da77a-cdf4-467f-af4e-75f46aaa680f")
+	)
+	(fp_line
+		(start -1.8 1.5)
+		(end -1.8 -1.5)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "62ae0949-7819-46cd-b0a3-ce3831fa1881")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "9b5b091e-42bb-42cd-ac2e-b376805dbe7b")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.8 1.5)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f89fba5b-fd82-427d-9f8b-1434cdddacb7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.71 1.47) (xy -1.727574 1.427574) (xy -1.77 1.41) (xy -1.812426 1.427574) (xy -1.83 1.47) (xy -1.812426 1.512426)
+			(xy -1.77 1.53) (xy -1.727574 1.512426)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.3")
+		(uuid "6c5dcd61-01a1-4c58-8233-652384e48e1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d9b8eab-f261-4650-9e77-d3ffeb19130a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.253 0)
+		(size 1.8 3.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "75bce3bd-6c7f-4567-8ecb-61865a5cda6d")
+	)
+	(pad "2" smd rect
+		(at -1.353 0)
+		(size 1.8 3.12)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60c33ab3-2955-4554-900f-159d9609e99a")
+	)
+	(model "D:/projects/library/download_LCEDA_3D_Model-main/SMD,3.5x3x2.1mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

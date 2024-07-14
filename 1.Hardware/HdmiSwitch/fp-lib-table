@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HdmiSwitch")(type "KiCad")(uri "${KIPRJMOD}/HdmiSwitch.pretty")(options "")(descr ""))
+)
